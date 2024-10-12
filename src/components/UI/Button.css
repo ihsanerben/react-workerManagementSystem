@@ -1,0 +1,7 @@
+button {
+  padding: 12px;
+  cursor: pointer;
+  background-color: green;
+  border: 1px solid gainsboro;
+  color: white;
+}

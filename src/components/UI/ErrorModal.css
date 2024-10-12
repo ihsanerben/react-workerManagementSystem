@@ -1,0 +1,36 @@
+body {
+  color: black;
+}
+
+.errorModalWrapper {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.errorModalWrapper header {
+  background-color: red;
+  padding: 20px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.errorModalWrapper section {
+  padding: 15px 20px;
+}
+
+.errorModalWrapper footer {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+.errorModalWrapper .Card {
+  padding: 0;
+}
